@@ -106,7 +106,7 @@ export class Plus extends PIXI.Sprite {
         this.x += this.xspeed * delta
         this.y += this.yspeed * delta
 
-        //this.keepInScreen()
+        this.keepInScreen()
 
 
 
