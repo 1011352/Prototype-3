@@ -74,7 +74,7 @@ export class Plus extends PIXI.Sprite {
                 break
         }
     }
-/*
+
     keepInScreen() {
         if (this.getBounds().left > this.game.pixi.screen.right) {
 
@@ -100,7 +100,7 @@ export class Plus extends PIXI.Sprite {
         }
 
     }
-*/
+
 
     update(delta: number) {
         this.x += this.xspeed * delta

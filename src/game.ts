@@ -215,7 +215,7 @@ export class Game {
         for (let g = 0; g < this.mins.length; g++) {
             if (this.collision(this.plus, this.mins[g])) {
                 this.mathQues();
-                //this.onClickP();
+                this.onClickP();
                 this.mins[g].destroy();
                 this.mins = this.mins.filter(ge => ge != this.mins[g]);
             }
